@@ -10,7 +10,7 @@ import {
 } from 'react-icons/fa';
 import { GiSkills } from 'react-icons/gi';
 import { BiSolidDashboard } from 'react-icons/bi';
-
+import SidebarBackground from './SidebarBackground';
 const Sidebar = ({ isSidebarVisible, closeSidebar }) => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -29,7 +29,10 @@ const Sidebar = ({ isSidebarVisible, closeSidebar }) => {
         bg-gradient-to-b from-gray-200 to-gray-100 shadow-2xl
       `}
     >
-      <div className="h-full flex flex-col items-start">
+      <div className="h-full flex flex-col items-start relative overflow-hidden">
+  <SidebarBackground />
+
+      {/* <div className="h-full flex flex-col items-start"> */}
         {/* Top Icon */}
         <div className="w-full h-28 flex flex-col mt-10  items-center justify-center">
           <BiSolidDashboard className="text-5xl text-yellow-500 drop-shadow-lg" />

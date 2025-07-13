@@ -1,11 +1,11 @@
 import React, { useState, memo } from 'react';
 import Header from './Header';
 import Sidebar from './Sidebar';
+
 import {
   FaCode, FaUserGraduate, FaProjectDiagram, FaNewspaper, FaLaptopCode
 } from 'react-icons/fa';
 import { FaLanguage } from 'react-icons/fa';
-
 const cardData = [
   {
     title: 'Skills',
@@ -94,25 +94,28 @@ const Home = () => {
       <div className="flex flex-col flex-1 overflow-hidden">
         <Header isSidebarVisible={isSidebarVisible} toggleSidebar={toggleSidebar} />
 
-        <main className="flex-1 overflow-y-auto p-6 pt-8 md:pt-10 bg-gradient-to-br from-white to-yellow-50">
-          {/* Hero */}
-          <section className="text-center mb-10">
-            <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 drop-shadow">
-              Hello, I'm <span className="text-yellow-500">Micheal Mithra</span>
-            </h1>
-            <p className="mt-2 text-lg md:text-xl text-gray-700 font-light">
-              A <span className="text-yellow-600 font-semibold">Full Stack Developer</span>
-            </p>
-            <div className="mt-4 w-20 h-1 bg-yellow-500 mx-auto rounded-full shadow-md" />
-          </section>
+       <main className="flex-1 overflow-y-auto p-6 pt-8 md:pt-10 bg-gradient-to-br from-white to-yellow-50 relative">
 
-          {/* Cards */}
-          <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {cardData.map((card, index) => (
-              <Card key={index} {...card} />
-            ))}
-          </section>
-        </main>
+
+  {/* Hero */}
+  <section className="text-center mb-10 relative z-10">
+    <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 drop-shadow">
+      Hello, I'm <span className="text-yellow-500">Micheal Mithra</span>
+    </h1>
+    <p className="mt-2 text-lg md:text-xl text-gray-700 font-light">
+      A <span className="text-yellow-600 font-semibold">Full Stack Developer</span>
+    </p>
+    <div className="mt-4 w-20 h-1 bg-yellow-500 mx-auto rounded-full shadow-md" />
+  </section>
+
+  {/* Cards */}
+  <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
+    {cardData.map((card, index) => (
+      <Card key={index} {...card} />
+    ))}
+  </section>
+</main>
+
       </div>
     </div>
   );
