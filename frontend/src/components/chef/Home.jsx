@@ -17,11 +17,11 @@ const cardData = [
     icon: <FaProjectDiagram className="text-3xl text-yellow-600 mb-4" />,
     content: (
       <ul className="list-disc list-inside space-y-1 text-sm text-gray-600">
-        <li>Restaurant Management (MERN)</li>
+{/*         <li>Restaurant Management (MERN)</li> */}
         <li>Admin Panel (PHP/XAMPP)</li>
         <li>IKS Project (HTML/CSS/JS)</li>
         <li>Clock App, Herbal Dyes Webpage</li>
-        <li className="font-semibold text-yellow-700">📰 Newspaper Billing System</li>
+        <li>Newspaper Billing System</li>
       </ul>
     )
   },
@@ -43,7 +43,7 @@ const cardData = [
     content: (
       <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
         <li>Doozy Info – Admin Panel</li>
-        <li>Life Changes – Restaurant System</li>
+{/*         <li>Life Changes – Restaurant System</li> */}
         <li>IKS – Frontend Web + Research</li>
       </ul>
     )
