@@ -4,24 +4,7 @@ import Sidebar from './Sidebar';
 import { useNavigate } from 'react-router-dom';
 
 const projects = [
-  {
-    title: 'Restaurant Management System',
-    description: 'MERN-based app with order, staff, kitchen, grocery, and invoice management.',
-    path: '/projects/restaurant',
-    url: 'https://youtu.be/your-restaurant-video-link',
-  },
-  {
-    title: 'Newspaper Billing System',
-    description: 'Billing, invoice, and customer tracking built using React and Node.js.',
-    path: '/projects/newspaper',
-    url: 'https://youtu.be/your-newspaper-demo-link',
-  },
-  {
-    title: 'Admin Panel (PHP)',
-    description: 'Admin panel built using PHP, MySQL and XAMPP with dashboard and records.',
-    path: '/projects/admin-panel',
-    url: '/images/php.mp4',
-  },
+  
   {
     title: 'Clock App',
     description: 'Stylish digital clock using HTML, CSS, and vanilla JavaScript.',
@@ -57,6 +40,24 @@ const projects = [
     description: 'Classic 2-player game made with HTML, CSS, and JavaScript.',
     path: '/projects/tic-tac-toe',
     url: 'https://michealmithram.github.io/Tic-tac-toe/',
+  },
+  // {
+  //   title: 'Restaurant Management System',
+  //   description: 'MERN-based app with order, staff, kitchen, grocery, and invoice management.',
+  //   path: '/projects/restaurant',
+  //   url: 'https://youtu.be/your-restaurant-video-link',
+  // },
+  {
+    title: 'Newspaper Billing System',
+    description: 'Billing, invoice, and customer tracking built using React and Node.js.',
+    path: '/projects/newspaper',
+    url: 'https://youtu.be/your-newspaper-demo-link',
+  },
+  {
+    title: 'Admin Panel (PHP)',
+    description: 'Admin panel built using PHP, MySQL and XAMPP with dashboard and records.',
+    path: '/projects/admin-panel',
+    url: '/images/php.mp4',
   },
 ];
 
