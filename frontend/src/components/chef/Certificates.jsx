@@ -5,12 +5,12 @@ import Sidebar from './Sidebar';
 
 // Certificates info
 const certificates = [
-  {
-    title: 'MERN Stack Internship',
-    org: 'Life Changes',
-    date: 'Jan 2025 – May 2025',
-    img: '/images/mern-certificate.jpg', // ✅ your image path
-  },
+  //{
+    //title: 'MERN Stack Internship',
+    //org: 'Life Changes',
+    //date: 'Jan 2025 – May 2025',
+    //img: '/images/mern-certificate.jpg', // ✅ your image path
+ // },
   {
     title: 'PHP Development Internship',
     org: 'Doozy Info Software Solutions',
