@@ -37,8 +37,8 @@ const Resume = () => {
                 title: 'About Me',
                 content: (
                   <p>
-                    I'm a Computer Science graduate with hands-on experience in PHP and the MERN Stack. I enjoy building real-world web applications and learning new technologies. I'm a quick learner, a good team player, and excited to start my career by contributing to innovative projects.
-                  </p>
+                 BE - CSE graduate (2025 passout) with real-time project experience in web development. Strong in web designing and frontend development. Currently working on a live .NET project and gaining hands-on experience in .NET and ASP.NET. A quick learner who adapts fast to new technologies and delivers quality results.
+                 </p>
                 )
               },
               {
@@ -51,12 +51,13 @@ const Resume = () => {
                 )
               },
               {
-                title: 'Internships',
+                title: 'Experience',
                 content: (
                   <ul className="list-disc list-inside">
-                    <li><strong>Life Changers IND</strong> – MERN stack project (Jan–May 2025)</li>
-                    <li><strong>Doozy Info Software Solutions</strong> – PHP admin panel (Jul–Aug 2024)</li>
-                    <li><strong>IKS, Ministry of Education</strong> – Frontend Research (Jan–Mar 2022)</li>
+                    <li><strong>Samudhra Tech Solutions</strong> – Employee (Jan 2025 – Present)</li>
+                    {/* <li><strong>Life Changers IND</strong> – MERN stack project (Jan–May 2025)</li> */}
+                    <li><strong>Doozy Info Software Solutions</strong> – Internship (Jul–Aug 2024)</li>
+                    <li><strong>IKS, Ministry of Education</strong> – Research (Jan–Mar 2022)</li>
                   </ul>
                 )
               },
@@ -65,7 +66,8 @@ const Resume = () => {
                 content: (
                   <ul className="list-disc list-inside">
                     <li>Restaurant Management System – MERN stack</li>
-                    <li>Admin Panel Web App – HTML, CSS, PHP, MySQL</li>
+                    <li>Billing Software – .NET</li>
+                    <li>CRM Software  – HTML, CSS, PHP, MySQL</li>
                     <li>Clock Web App</li>
                     <li>IKS Project Page</li>
                     <li>Herbal Dyes Website</li>
@@ -76,7 +78,7 @@ const Resume = () => {
                 title: 'Skills',
                 content: (
                   <p>
-                    HTML, CSS, JavaScript, PHP, Java, React.js, Node.js, Express.js, MongoDB, Tailwind CSS, GitHub
+                    HTML, CSS, JavaScript, PHP, Java, React.js, Node.js, Express.js, MongoDB, Tailwind CSS, GitHub, .Net, 
                   </p>
                 )
               },
@@ -124,3 +126,4 @@ const Resume = () => {
 };
 
 export default Resume;
+ 
