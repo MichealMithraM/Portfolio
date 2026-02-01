@@ -9,7 +9,7 @@ const certificates = [
     title: 'EMployee',
     org: 'Samudhra Tech Solutions',
     date: 'Jan 2025 – Present',
-    img: '/images/mern-certificate.jpg', 
+    img: '/images/STS.jpg', 
   },
   // {
   //   title: 'MERN Stack Internship',
